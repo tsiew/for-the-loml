@@ -24,6 +24,7 @@ function updateLoveCounter() {
 
 document.getElementById("minutes-counter").textContent =
   minutes.toLocaleString();
+  
   document.getElementById("days-counter").textContent = days;
   document.getElementById("hours-counter").textContent = hours;
 }
